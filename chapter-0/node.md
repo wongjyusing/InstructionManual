@@ -16,6 +16,10 @@
 注意上面的命令是一条命令，不要分开了。其中的版本号需要自行更改。  
 ### 加入环境变量  
 `sudo vim ~/.profile`  
+修改目录权限  
+```bash
+sudo chmod -R 777 /usr/local/lib/nodejs
+```
 在末尾根据安装的路径自行更改目录  
 ```bash
 export NODEJS_HOME=/usr/local/lib/nodejs/node-$VERSION/bin
